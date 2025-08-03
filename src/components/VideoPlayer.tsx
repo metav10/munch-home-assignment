@@ -67,12 +67,6 @@ export const VideoPlayer = ({
 
 	useEffect(() => {
 		const stopAt = () => {
-			console.log('aaa', {
-				currentTime: currentVideoRef.current?.currentTime,
-				endTime: trimEndTime,
-				trimStartTime,
-			});
-
 			if (currentVideoRef.current!.currentTime >= trimEndTime) {
 				if (currentVideoRef.current!.currentTime > trimEndTime) {
 					currentVideoRef.current!.currentTime = trimEndTime;
