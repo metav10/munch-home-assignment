@@ -3,6 +3,7 @@ Run:
 ```
 npm install
 npm run dev
+```
 
 
 component tree
