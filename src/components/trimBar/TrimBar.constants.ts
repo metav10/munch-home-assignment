@@ -1,0 +1,4 @@
+export const TRIM_BAR_WIDTH = 10;
+export const PADDING_COUNT = 2;
+export const BAR_WRAPPER_WIDTH =
+	TRIM_BAR_WIDTH * PADDING_COUNT * 2 + TRIM_BAR_WIDTH;

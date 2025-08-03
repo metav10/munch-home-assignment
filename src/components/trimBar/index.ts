@@ -1,0 +1,1 @@
+export { TrimBar } from './TrimBar';
